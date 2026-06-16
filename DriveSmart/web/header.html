@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous"
+            ></head>
+    <body>
+        <div style="border: thin solid black; padding:5px;">
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark" 
+                     style="background-color: #2E90E8">
+                    <div>
+                        <a href="index.jsp" class="navbar-brand"> DRIVESMART INTEGRATED ACADEMY </a>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li><a href="<%=request.getContextPath()%>/list" 
+                               class="nav-link">Centralized Schedule</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+    </body>
+</html>
